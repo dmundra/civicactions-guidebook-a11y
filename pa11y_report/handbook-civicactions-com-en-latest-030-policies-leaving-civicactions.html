@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8"/>
+	<title>Accessibility Report For "https://handbook.civicactions.com/en/latest/030-policies/leaving-civicactions/" (Thu Nov 24 2022 09:43:14 GMT-0800 (Pacific Standard Time))</title>
+
+	<style>
+
+		html, body {
+			margin: 0;
+			padding: 0;
+			background-color: #fff;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 16px;
+			line-height: 22px;
+			color: #333;
+		}
+		li {
+			margin-bottom: 15px;
+		}
+		h1, h2, p, pre, ul {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+		h1 {
+			margin-bottom: 10px;
+			font-size: 24px;
+			line-height: 24px;
+		}
+		h2 {
+			font-size: 16px;
+		}
+		pre {
+			white-space: pre-wrap;
+			overflow: auto;
+		}
+
+		.page {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 25px;
+		}
+
+		.counts {
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		.count {
+			display: inline-block;
+			padding: 5px;
+			border-radius: 5px;
+			border: 1px solid #eee;
+		}
+
+		.clean-list {
+			margin-left: 0;
+			padding-left: 0;
+			list-style: none;
+		}
+		.results-list {
+			margin-top: 30px;
+		}
+
+		.result {
+			padding: 10px;
+			border-radius: 5px;
+			border: 1px solid #eee;
+		}
+		.error {
+			background-color: #fdd;
+			border-color: #ff9696;
+		}
+		.warning {
+			background-color: #ffd;
+			border-color: #e7c12b;
+		}
+		.notice {
+			background-color: #eef4ff;
+			border-color: #b6d0ff;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="page">
+
+		<h1>Accessibility Report For "https://handbook.civicactions.com/en/latest/030-policies/leaving-civicactions/"</h1>
+		<p>Generated at: Thu Nov 24 2022 09:43:14 GMT-0800 (Pacific Standard Time)</p>
+
+		<p class="counts">
+			<span class="count error">3 errors</span>
+			<span class="count warning">0 warnings</span>
+			<span class="count notice">0 notices</span>
+		</p>
+
+		<ul class="clean-list results-list">
+			<li class="result error">
+				<h2>Error: &lt;ul&gt; and &lt;ol&gt; must only directly contain &lt;li&gt;, &lt;script&gt; or &lt;template&gt; elements (https://dequeuniversity.com/rules/axe/4.4/list?application=axeAPI)</h2>
+				<p>list</p>
+				<pre>&lt;ul class=&quot;subnav&quot;&gt;
+            
+    &lt;li class=&quot;to...&lt;/ul&gt; (select with "html &gt; body &gt; div:nth-child(1) &gt; nav &gt; div:nth-child(2) &gt; ul &gt; li:nth-child(6) &gt; ul &gt; li:nth-child(9) &gt; ul")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute &quot;submit&quot; or &quot;image&quot;, or BUTTON elements with type &quot;submit&quot; or omitted/invalid.</h2>
+				<p>WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2</p>
+				<pre>&lt;form id=&quot;rtd-search-form&quot; class=&quot;wy-form&quot; action=&quot;../../search.html&quot; method=&quot;get&quot;&gt;
+    &lt;input type=&quot;text&quot; name=&quot;q...&lt;/form&gt; (select with "#rtd-search-form")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute &quot;submit&quot; or &quot;image&quot;, or BUTTON elements with type &quot;submit&quot; or omitted/invalid.</h2>
+				<p>WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2</p>
+				<pre>&lt;form id=&quot;flyout-search-form&quot; class=&quot;wy-form&quot; target=&quot;_blank&quot; action=&quot;//readthedocs.org/projects/civicactions-handbook/search/&quot; method=&quot;get&quot;&gt;
+              &lt;input type=&quot;tex...&lt;/form&gt; (select with "#flyout-search-form")</pre>
+			</li>
+		</ul>
+
+	</div>
+
+</body>
+</html>
