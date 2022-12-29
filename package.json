@@ -1,10 +1,10 @@
 {
-  "name": "civicactions-handbook-a11y",
+  "name": "civicactions-guidebook-a11y",
   "author": "Daniel Mundra",
   "license": "MIT",
   "scripts": {
-    "pa11y-ci:home": "pa11y-ci https://handbook.civicactions.com/en/latest/",
-    "pa11y-ci:sitemap": "pa11y-ci --sitemap https://handbook.civicactions.com/en/latest/sitemap.xml --sitemap-exclude \"/*.pdf\""
+    "pa11y-ci:home": "pa11y-ci https://guidebook.civicactions.com/en/latest/",
+    "pa11y-ci:sitemap": "pa11y-ci --sitemap https://guidebook.civicactions.com/en/latest/sitemap.xml --sitemap-exclude \"/*.pdf\""
   },
   "devDependencies": {
     "pa11y-ci": "^3.0.1",
