@@ -1,6 +1,6 @@
-# CivicActions Handbook site a11y testing
+# CivicActions Guidebook site a11y testing
 
-Testing CivicActions Handbook site for accessibility issues using `pa11y-ci` and `axe`.
+Testing CivicActions Guidebook site for accessibility issues using `pa11y-ci` and `axe`.
 
 ## Report
 
